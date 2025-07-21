@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Crypto Bot (Simulator)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    .btn {
+      padding: 10px 25px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .buy { background-color: #4caf50; }
+    .sell { background-color: #f44336; }
+    .price, .result, .balance { margin: 20px 0; font-size: 20px; }
+  </style>
+</head>
+<body>
+
+  <h1>Live Crypto Bot (Using CoinGecko API)</h1>
+  <div class="price">Current BTC Price: ₹<span id="price">--</span></div>
+  <p>Trade Amount: ₹<input type="number" id="amount" value="100" min="10" step="10"></p>
+
+  <button class="btn buy" onclick="placeTrade('buy'
