@@ -1,0 +1,64 @@
+body {
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header, footer {
+  background: #111;
+  padding: 20px;
+}
+
+.dashboard, .market, .history {
+  padding: 20px;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buy, .sell {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buy {
+  background-color: #28a745;
+  color: white;
+}
+
+.sell {
+  background-color: #dc3545;
+  color: white;
+}
+
+.chart-box {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul#trade-log {
+  list-style-type: none;
+  padding: 0;
+}
